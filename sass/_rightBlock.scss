@@ -1,0 +1,186 @@
+@import 'fonts';
+
+
+.RightBlock{
+    display: flex;
+    flex-direction: row;
+    left: -8px;
+    top: 6px;
+    position: relative;
+}
+.profileBox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 34px;
+    left: 5px;
+    width: 228px;
+    height: 228px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.lkLauraImg {
+    padding-left: 2px;
+    width: 61px;
+    height: 61px;
+}
+
+.titleProfile {
+    padding-left: 2px;
+    padding-top: 12px;
+    font-family: 'inter600';
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
+    letter-spacing: 0.2px;
+}
+
+.subtitleProfile {
+    padding-left: 2px;
+    padding-top: 8px;
+    letter-spacing: 0.2px;
+    font-family: 'inter500';
+    font-size: 10px;
+    line-height: 1;
+    color: #A8A8A8;
+}
+
+.btnProfileLk{
+    margin-left: 5px;
+   display: flex;
+   padding-top: 34px;
+}
+
+.btnProfileLk a{
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 9px 69px 12px 66px;
+    font-family: 'inter600';
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-decoration: none;
+       &:hover{
+    background-color: yellow;
+    outline: 1px solid black;
+   }
+}
+
+.conteinerAvailability{
+    position: relative;
+    width: 228px;
+    height: 325px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    top: 245px;
+    left: 3px;
+    padding: 24px 23px 8px;
+}
+
+
+.titleAvailab {
+    font-family: 'inter600';
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding-bottom: 6px;
+}
+
+.connect{
+    padding: 24px 0 5px;
+}
+
+.expertise{
+    padding: 28px 0 8px;
+}
+
+.conteinerAvailability > a{
+    font-family: 'inter600';
+    font-size: 9px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 4px 10px 3px 8px;
+    border-radius: 10px;
+    background-color: #1DB75A;
+}
+
+.textAvailab {
+    font-family: 'inter500';
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #239852;
+}
+
+.labTwo{
+    padding-top: 3px;
+}
+
+.skillsBtnBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 5px;
+    text-align: center;
+}
+
+.skillsBtnBox a{
+    padding: 6px 0;
+    color: #656565;
+    font-family: 'inter500';
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: 1;
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    height: 27px;
+}
+
+.skillsBtnBox a:nth-child(1){
+    width: 77px;
+
+}
+.skillsBtnBox a:nth-child(2){
+    width: 76px;
+    padding-right: 1px;
+}
+.skillsBtnBox a:nth-child(3){
+    width: 96px;
+}
+.skillsBtnBox a:nth-child(4){
+    width: 69px;
+    padding-left: 3px;
+}
+.skillsBtnBox a:nth-child(5){
+    width: 91px;
+    padding-right: 2px;
+}
+.skillsBtnBox a:nth-child(6){
+    width: 54px;
+}
+
+.btnViewProfile {
+    margin-top: 18px;
+    height: 34px;
+    width: 192px;
+    padding: 5px 42px 12px 39px;
+    background-color: #000000;
+    border-radius: 5px;
+    text-align: center;
+    &:hover{
+        background-color: green;
+        outline: 1px solid black;
+    }
+}
+
+.btnViewProfile a{
+    font-family: 'inter600';
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}

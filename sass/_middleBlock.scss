@@ -1,0 +1,313 @@
+@import 'fonts';
+
+.middleBlock{
+    display: flex;
+    position: relative;
+}
+
+.aboutMiddleMenu{
+    display: flex;
+    gap:10px;
+    margin-top: 5px;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 551px;
+    height: 47px;
+}
+
+.aboutMiddleMenu a{
+    font-family: 'inter400';
+    font-size: 11px;
+    line-height: 1;
+    color: #939393;
+    padding: 11px 10px;
+    &:nth-child(1):hover{
+        background-color: green;
+    }
+}
+
+.aboutMiddleMenu a:nth-child(1){
+    color: white;
+    margin: 1px 0px 0px 18px;
+    padding: 10px 30px 5px 27px;
+    background-color: #0A0A0A;
+    border-radius: 5px;
+    width: 153px;
+    height: 34px;
+    letter-spacing: 0.2px;
+}
+
+.aboutMiddleMenu a:nth-child(2){
+    padding-left: 47px;
+}
+
+.aboutMiddleMenu a:nth-child(3){
+    padding-left: 80px;
+    letter-spacing: 0.2px;
+}
+
+.conteinerElite {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    background-color: white;
+    top: 69px;
+    border-radius: 10px;
+    left: 0px;
+    padding: 28px 18px;
+}
+
+.eliteHeader {
+    display: flex;
+    position: relative;
+}
+
+.lElite {
+    width: 49px;
+    height: 49px;
+}
+
+.eliteBox {
+    margin-left: 16px;
+}
+
+.eliteTitle {
+    font-family: 'inter600';
+    font-size: 12px;
+    color: #6D6D6D;
+    letter-spacing: 0.2px;
+    margin-bottom: 1px;
+}
+
+.eliteSubTitle {
+    font-family: 'inter600';
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #000;
+}
+
+.zakladkaImgElite {
+    position: absolute;
+    right: -299px;
+    top: 3px;
+    width: 20px;
+}
+
+.conteinerAboutProject {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectOverTitle {
+    font-family: 'inter600';
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #000;
+    padding-bottom: 11px;
+}
+
+.projectOverSubtitle {
+    font-family: 'inter500';
+    font-size: 10px;
+    line-height: 1.19;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+    width: 475px;
+    height: 93px;
+}
+
+.conteinerSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillsTitle {
+    font-family: 'inter600';
+    font-size: 14px;
+    color: #000;
+}
+
+.btnSkills {
+    display: flex;
+    gap: 11px;
+    padding-top: 1px;
+
+}
+
+.btnSkills a {
+    text-align: center;
+    font-family: 'inter500';
+    font-size: 10px;
+    color: #656565;
+    padding: 6px 0;
+    background: #F2F2F2;
+    border-radius: 4px;
+    width: 91px;
+}
+
+
+.btnSkills a:nth-child(1){
+    margin-right: 1px;
+    letter-spacing: 0.1px;
+}
+
+.btnSkills a:nth-child(2){
+    width: 52px;
+}
+
+
+.conteinerDetail {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.detailBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.detailBoxTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin: -4px 0 0 49px;
+    letter-spacing: 0.2px;
+}
+
+.detailBoxThree {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin: -5px 0 0 46px;
+    letter-spacing: 0.2px;
+}
+
+
+.detailTitle {
+    font-family: "inter600";
+    font-size: 14px;
+    position: relative;
+    top: 108px;
+    letter-spacing: 0.2px;
+    left: -256px;
+}
+
+.textStats{
+    font-family: 'inter600';
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    color: #323232;
+}
+
+.textSuccess {
+    font-family: 'inter600';
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    color: #838383;
+}
+
+.textTotal {
+    font-family: 'inter600';
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    color: #3F3F3F;
+}
+
+.starsDetail{
+    padding-top: 3px;
+    display: flex;
+    gap: 1px;
+}
+
+.starsImgDetail{
+    width: 9px;
+    height: 9px;
+}
+
+.textTotal {
+    font-family: 'inter500';
+    font-size: 10px;
+    color: #3F3F3F;
+}
+
+
+.detailVerified,
+.paymentDetail {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    gap: 3px;
+}
+
+.okeyDetail{
+    padding-top: 2px;
+}
+
+.detailVerified p,
+.paymentDetail p {
+    font-family: 'inter500';
+    font-size: 9px;
+    color: #838383;
+}
+
+.okeyImg {
+    width: 12px;
+    height: 12px;
+}
+
+.conteinterProposal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap:29px;
+}
+
+.siteBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #F7F7F7;
+    width: 303px;
+    border-radius: 5px;
+}
+
+.siteText {
+    padding: 12px 0px 10px 13px;
+    font-family: "inter500";
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    color: #646464;
+}
+
+.copyImg {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 12px;
+    top: 13px;
+}
+
+.btnSubmit {
+    margin-top: 4px;
+    border-radius: 3px;
+}
+.btnSubmit a {
+    font-family: "inter400";
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #239852;
+    letter-spacing: 0.2px;
+    padding: 10px 27px 12px 30px;
+    &:hover{
+        background-color: black;
+        outline: 2px solid yellow;
+    }
+}

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'inter700';
+  src: local('Inter_24pt-Bold'),
+       local('Inter Bold')
+       url('/fonts/Inter_24pt-Bold.woff2') format('woff2'),
+       url('/fonts/Inter_24pt-Bold.woff') format('woff'),
+       url('/fonts/Inter_24pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'inter600';
+  src: local('Inter_24pt-SemiBold'),
+       local('Inter SemiBold')
+       url('/fonts/Inter_24pt-SemiBold.woff2') format('woff2'),
+       url('/fonts/Inter_24pt-SemiBold.woff') format('woff'),
+       url('/fonts/Inter_24pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'inter500';
+  src: local('Inter_24pt-Medium'),
+       local('Inter Medium')
+       url('/fonts/Inter_24pt-Medium.woff2') format('woff2'),
+       url('/fonts/Inter_24pt-Medium.woff') format('woff'),
+       url('/fonts/Inter_24pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'inter400';
+  src: local('Inter_24pt-Regular'),
+       local('Inter Regular')
+       url('/fonts/Inter_24pt-Regular.woff2') format('woff2'),
+       url('/fonts/Inter_24pt-Regular.woff') format('woff'),
+       url('/fonts/Inter_24pt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,91 @@
+@import 'fonts';
+
+.kolokol,
+.zakladka,
+.sms{
+    width: 20px;
+    height: 20px;
+}
+
+.conteinerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 1300px;
+    background-color: #FFFFFF;
+}
+
+.logo a{
+    font-family: 'inter700';
+    font-size: 16px;
+    line-height: 1;
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 43px;
+}
+
+
+.navigation a:nth-child(1){
+    font-family: 'inter600';
+    color: #31B465;
+    font-size: 12px;
+    line-height: 1;
+    padding-left: 47px;
+}
+
+.navigation a:nth-child(2){
+    padding-left: 20px;
+}
+
+.navigation a:nth-child(3){
+    padding-left: 20px;
+    letter-spacing: 0.1px;
+}
+
+.navigation a:nth-child(4){
+    padding-left: 18px;
+}
+
+.navigation{
+    display: flex;
+    gap:15px;
+}
+
+.navigation a{
+    color: #000000;
+    font-family: 'inter500';
+    font-size: 12px;
+    line-height: 1;
+    padding-top: 8px;   
+    letter-spacing: 0.2px;
+}
+
+.lk{
+    display: flex;
+    gap:22px;
+    padding-top: 17px;
+}
+
+.profile{
+    padding-right: 39px;
+}
+
+.profileImg{
+    width: 21px;
+    height: 21px;
+}
+
+.smsBox{
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    right: -3px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #FF0000;
+}
